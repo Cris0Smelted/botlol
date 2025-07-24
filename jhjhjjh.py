@@ -27,6 +27,6 @@ async def heh(ctx, count_heh = 5):
 async def lmaolol(ctx, count_lmaolol = 8):
     await ctx.send("lmaolol" * count_lmaolol )
 @bot.command()
-async def pswd(ctx, longitud = 8):
+async def pswd(ctx, longitud = 9):
     await ctx.send(f"Tu contraseña es : {gen_pass(longitud)}")
 bot.run("")
